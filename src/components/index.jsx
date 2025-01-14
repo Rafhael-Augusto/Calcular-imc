@@ -40,7 +40,7 @@ const Formulario = () => {
                         Aqui o sinal é vermelho, com forte probabilidade de já existirem doenças muito graves associadas. O tratamento deve ser ainda mais urgente.
                     </p>
                 </li>
-                <li className={`${styles.item} ${resultado >= 35 && resultado <= 39.9 ? styles.itemSelecionado : ''}`}>
+                <li className={`${styles.item} ${resultado >= 35 && resultado <= 39.99 ? styles.itemSelecionado : ''}`}>
                     <img className={styles.imagem} src="https://abeso.org.br/wp-content/uploads/2019/12/imc_02.png.webp" alt="Obesidade grau 2" />
                     <p>
                         Entre 35,0 e 39,9
@@ -50,7 +50,7 @@ const Formulario = () => {
                         Mesmo que seus exames aparentem estar normais, é hora de se cuidar, iniciando mudanças no estilo de vida com o acompanhamento próximo de profissionais de saúde.
                     </p>
                 </li>
-                <li className={`${styles.item} ${resultado >= 30 && resultado <= 34.9 ? styles.itemSelecionado : ''}`}>
+                <li className={`${styles.item} ${resultado >= 30 && resultado <= 34.99 ? styles.itemSelecionado : ''}`}>
                     <img className={styles.imagem} src="https://abeso.org.br/wp-content/uploads/2019/12/imc_03.png.webp" alt="Obesidade grau 1" />
                     <p>
                         Entre 30,0 e 34,9
@@ -60,7 +60,7 @@ const Formulario = () => {
                         Sinal de alerta! Chegou na hora de se cuidar, mesmo que seus exames sejam normais. Vamos dar início a mudanças hoje! Cuide de sua alimentação. Você precisa iniciar um acompanhamento com nutricionista e/ou endocrinologista.
                     </p>
                 </li>
-                <li className={`${styles.item} ${resultado >= 25 && resultado <= 29.9 ? styles.itemSelecionado : ''}`}>
+                <li className={`${styles.item} ${resultado >= 25 && resultado <= 29.99 ? styles.itemSelecionado : ''}`}>
                     <img className={styles.imagem} src="https://abeso.org.br/wp-content/uploads/2019/12/imc_04.png.webp" alt="Sobrepeso" />
                     <p>
                         Entre 25,0 e 29,9
@@ -70,7 +70,7 @@ const Formulario = () => {
                         Ele é, na verdade, uma pré-obesidade e muitas pessoas nessa faixa já apresentam doenças associadas, como diabetes e hipertensão. Importante rever hábitos e buscar ajuda antes de, por uma série de fatores, entrar na faixa da obesidade pra valer.
                     </p>
                 </li>
-                <li className={`${styles.item} ${resultado >= 18.6 && resultado <= 24.9 ? styles.itemSelecionado : ''}`}>
+                <li className={`${styles.item} ${resultado >= 18.6 && resultado <= 24.99 ? styles.itemSelecionado : ''}`}>
                     <img className={styles.imagem} src="https://abeso.org.br/wp-content/uploads/2019/12/imc_05.png.webp" alt="Peso normal" />
                     <p>
                         Entre 18,6 e 24,9
