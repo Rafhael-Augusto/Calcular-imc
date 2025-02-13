@@ -80,7 +80,7 @@ const Formulario = () => {
                         Que bom que você está com o peso normal! E o melhor jeito de continuar assim é mantendo um estilo de vida ativo e uma alimentação equilibrada.
                     </p>
                 </li>
-                <li className={`${styles.item} ${resultado <= 18.50 ? styles.itemSelecionado : ''}`}>
+                <li className={`${styles.item} ${resultado <= 18.59 ? styles.itemSelecionado : ''}`}>
                     <img className={styles.imagem} src="https://abeso.org.br/wp-content/uploads/2019/12/imc_06.png.webp" alt="Abaixo do peso normal" />
                     <p>
                         18,5 ou menos
